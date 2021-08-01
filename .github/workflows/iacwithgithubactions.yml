@@ -50,6 +50,8 @@ jobs:
         uses: Azure/arm-deploy@v1
         id: storageAccountDeploy
         with:
+          scope: resourcegroup
+          resourceGroupName: rg-IaCWithGithubActions
           subscriptionId: 612dc983-5cda-4499-809e-07c0a6c2da4b
           template: ./arm-templates/logAnalyticsWorkspace.json
           parameters: 

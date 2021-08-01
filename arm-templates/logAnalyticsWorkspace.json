@@ -35,7 +35,7 @@
         },
         "retentionInDays": {
             "type": "int",
-            "defaultValue": 120,
+            "defaultValue": 30,
             "metadata": {
                 "description": "Number of days to retain data"
             }
